@@ -1,0 +1,12 @@
+class Main{
+  public static void main (String[] args){
+
+    Animal mianimal = new perro();
+    Animal mianimal2 = new gato();
+
+    mianimal.hacerSonido();
+    mianimal2.hacerSonido();
+
+    
+  }
+}
