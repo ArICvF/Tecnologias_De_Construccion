@@ -1,12 +1,15 @@
 class Main{
   public static void main (String[] args){
-
-    Animal mianimal = new perro();
-    Animal mianimal2 = new gato();
+    Animal animal = new Animal();
+    Animal mianimal = new Perro();
+    Animal mianimal2 = new Gato();
+    Animal mianimal3 = new Caballo();
+    Animal mianimal4 = new Pato();
 
     mianimal.hacerSonido();
     mianimal2.hacerSonido();
-
-    
+    mianimal3.hacerSonido();
+    mianimal4.hacerSonido();
+    animal.hacerSonido();
   }
 }
